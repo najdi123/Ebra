@@ -24,10 +24,10 @@ class Navbar extends Component {
                                 <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
                             </li>
                             <li className="nav-item dropdown">
-                                <div className="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Collections
-                                </div>
+                                </a>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <Link className="dropdown-item" to="/Spring-Summer-2018">Spring - summer - 2018</Link>
                                     <Link className="dropdown-item" to="/Fall-Winter-2017">Fall - Winter - 2017</Link>
