@@ -16,11 +16,22 @@ a {
 .navbar{
     padding-top: 0;
     padding-bottom: 0;
-    background-color: black;
+    background-color: black!important;
 }
 .nav-link:hover{
     border-bottom: #ffb807 solid 2px;
 
     color: #ffb807;
 
+}
+.dropdown-item:hover {
+    color: #aaaaaa;
+    border-bottom: #ffb807 solid 2px;
+}
+.dropdown-item {
+    background-color: black!important;
+    color: white;
+}
+.dropdown-menu {
+    background-color: black!important;
 }

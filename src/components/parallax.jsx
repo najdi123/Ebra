@@ -15,7 +15,7 @@ class FlexPage extends Component {
             <div className="pimg2">
                 <div className="ptext">
 
-                    <h1>Spring - Summer 2018</h1>
+                    <h1 className="text-title">Spring - Summer 2018</h1>
 
                 </div>
             </div>
